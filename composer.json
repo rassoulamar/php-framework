@@ -1,0 +1,20 @@
+{
+    "name": "mbp/php-framework",
+    "description": "un grand framework mvc",
+    "type": "projet",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "amar",
+            "email": "rassoul.amar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "m2i\\framework\\": "framework/",
+            "m2i\\project\\controllers\\": "src/controllers/"
+        }
+    }
+}
